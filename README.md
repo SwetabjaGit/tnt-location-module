@@ -14,7 +14,7 @@ Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is enco
 5. This decoded string will contain the location of the room. Compare it with the GPS coordinates.
 6. If decoded coordinates matches with GPS, then we are good to go.
 7. This location can't be faked as if the user takes a snap of the qrcode and scans it from his home,
-   the coordinates will not match as the QRCode gives location of the store.
+   the coordinates will not match as the QRCode still gives location of the store.
 
 ## Sample data
 
