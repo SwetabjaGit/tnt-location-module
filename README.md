@@ -7,7 +7,7 @@ Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is enco
 
 ## Algorithm used
 
-1. Geocoordinates are encoded using base64 into a single string using https://www.base64encode.org/ utility.
+1. Geo-coordinates are encoded using base64 into a single string using https://www.base64encode.org/ utility.
 2. The corresponding QR-Code is then generated using http://goqr.me/ or https://www.the-qrcode-generator.com/.
 3. Now this QR-Code can be scanned and corresponding string can be obtained.
 4. Decode this string using https://www.base64decode.org/.
