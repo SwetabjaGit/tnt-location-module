@@ -22,4 +22,5 @@ Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is enco
 2. Base64 Encoded String: `MjIuMjU0MTg5LCA4NC45MTA3NDE=`
 
   ![QR Code](https://i.imgur.com/0DugdyS.png)
+
 3. Scan this QR-Code to get the corresponding location.
