@@ -22,6 +22,8 @@ Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is enco
 --------------
 
 Geo-Coordinates: 22.254189, 84.910741
+
 Base64 Encoded String: MjIuMjU0MTg5LCA4NC45MTA3NDE=
+
 QR-Code:
 ![QR Code](https://i.imgur.com/0DugdyS.png)
