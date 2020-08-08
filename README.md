@@ -1,5 +1,4 @@
 # TntLocationModule
--------------------
 
 This module gets the Geo-Coordinates by scanning QR code and compares with GPS for verification,
 then uses facial recognition for Identity verification of field employees.
@@ -7,7 +6,6 @@ The QR code contains the current GeoLocation of the room where the QR code is lo
 Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is encoded in the QR-Code.
 
 ## Algorithm used
------------------
 
 1. Geocoordinates are encoded using base64 into a single string using (https://www.base64encode.org/) utility.
 2. The corresponding QR-Code is then generated using (http://goqr.me/) or (https://www.the-qrcode-generator.com/).
@@ -19,8 +17,8 @@ Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is enco
    the coordinates will not match as the QRCode gives location of the store.
 
 ## Sample data
---------------
 
 1. Geo-Coordinates: 22.254189, 84.910741
 2. Base64 Encoded String: MjIuMjU0MTg5LCA4NC45MTA3NDE=
-3. ![QR Code](https://i.imgur.com/0DugdyS.png)
+
+![QR Code](https://i.imgur.com/0DugdyS.png)
