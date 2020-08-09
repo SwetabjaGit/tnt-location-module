@@ -24,3 +24,7 @@ Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is enco
   ![QR Code](https://i.imgur.com/0DugdyS.png)
 
 3. Scan this QR-Code to get the corresponding location.
+
+## Apk File
+
+Download the APK from [here]https://drive.google.com/file/d/0BwcoMJ0DNQ-RY25fcUhCNWJMUW8/view?usp=sharing
