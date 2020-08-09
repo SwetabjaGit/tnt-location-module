@@ -7,14 +7,14 @@ Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is enco
 
 ## Algorithm used
 
-1. Geo-coordinates are encoded using base64 into a single string using https://www.base64encode.org/ utility.
+1. Geo-coordinates are Base64 encoded into a single string using https://www.base64encode.org/ utility.
 2. The corresponding QR-Code is then generated using http://goqr.me/ or https://www.the-qrcode-generator.com/.
 3. Now this QR-Code can be scanned and corresponding string can be obtained.
 4. Decode this string using https://www.base64decode.org/.
 5. This decoded string will contain the location of the room. Compare it with the GPS coordinates.
 6. If decoded coordinates matches with GPS, then we are good to go.
 7. This location can't be faked as if the user takes a snap of the qrcode and scans it from his home,
-   the coordinates will not match as the QRCode still gives location of the store.
+   the coordinates will not match as the QR-Code still gives location of the store.
 
 ## Sample data
 
