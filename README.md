@@ -1,9 +1,6 @@
 # TntLocationModule
 
-This module gets the Geo-Coordinates by scanning QR code and then compares it with GPS for verification,
-after that, it uses facial recognition for Identity verification of field employees.
-The QR code contains the current GeoLocation of the room where the QR code is located.
-Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is encoded in the QR-Code.
+This module verifies location of a person in a way which can't be faked. It does so by getting the Geo-Coordinates from a QR code, then comparing it with GPS for verification. Think of it as a UPI/Paytm QR-Code in a store where locaton of the store is encoded in the QR-Code.
 
 ## Algorithm used
 
